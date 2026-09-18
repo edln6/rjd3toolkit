@@ -78,6 +78,5 @@ sarima_estimate(y, order = c(0, 1, 1), seasonal = c(0, 1, 1))
 #>   -0.8764   -0.3875 
 #> 
 #> No regression variables
-#> 
-#> For a more detailed output, use the 'summary()' function.
+#> Error in if (summary_info) {    cat("\nFor a more detailed output, use the 'summary()' function.\n")}: argument is of length zero
 ```
