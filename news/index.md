@@ -29,6 +29,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `add_usrdefvar` renames automatically the group or variables that
   contains a dot (`.`)
   [\#148](https://github.com/rjdverse/rjd3toolkit/issues/148).
+- Updated jdplus-main JARS from 3.8.0 to 3.9.0
 
 #### Fixed
 
