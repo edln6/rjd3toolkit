@@ -36,11 +36,6 @@ long_term_mean(
   c(1, 2, 3, 4, 5, 6, 0), week days by c(1, 1, 1, 1, 1, 0, 0), week
   days, Saturdays, Sundays by c(1, 1, 1, 1, 1, 2, 0) etc.
 
-- holiday:
-
-  Day to aggregate holidays with. (holidays are considered as that day).
-  1 for Monday... 7 for Sunday. Doesn't necessary belong to the 0-group.
-
 ## Value
 
 returns an object of class `c("matrix","array")` with the long term
