@@ -41,5 +41,5 @@ z <-density_inverse_gaussian(shape = 1, scale = 2, x = 0.1* 0:30)
 # with shape 1 and scale 2
 z<-random_inverse_gaussian(shape = 1, scale = 2, n = 5)
 z
-#> [1] 0.8095764 0.6965512 1.0841605 1.2381048 1.7470213
+#> [1] 2.3544418 1.4774263 0.3120157 0.4095406 1.7244560
 ```

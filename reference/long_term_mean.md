@@ -8,12 +8,7 @@ of days in the group - long term mean".
 ## Usage
 
 ``` r
-long_term_mean(
-  calendar,
-  frequency,
-  groups = c(1, 2, 3, 4, 5, 6, 0),
-  holiday = 7
-)
+long_term_mean(calendar, frequency, groups = c(1, 2, 3, 4, 5, 6, 0))
 ```
 
 ## Arguments
@@ -63,7 +58,6 @@ BE <- national_calendar(list(
     special_day("ARMISTICE")
 ))
 lt <- long_term_mean(BE, 12,
-    groups = c(1, 1, 1, 1, 1, 0, 0),
-    holiday = 7
+    groups = c(1, 1, 1, 1, 1, 0, 0)
 )
 ```
